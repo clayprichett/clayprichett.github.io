@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Bootstrap Example</title>
+
+    <!-- My header code -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body id="the-body">
+    <div class="container-fluid">
+        <h1>Bootstrap Page</h1>
+        <br>
+        <p>This is a page with Bootstrap!</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Sydney's Awesome Bootstrap Page</a>
+            </div> -->
+
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Me</a>
+                </li>
+                <li>
+                    <a href="second-page.html">Photo Gallery</a>
+                </li>
+                <li>
+                    <a href="using-bootstrap.html">Using Bootstrap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Famous quotes -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6" id="col1">
+                <p>Left</p>
+                <blockquote>
+                    <p>There's a metacharacter for that.</p>
+                    <footer>Sydney, Zatna Web Development Workshop</footer>
+                </blockquote>
+            </div>
+            <div class="col-xs-6" id="col2">
+                <p style="float: right">Right</p>
+                <br>
+                <blockquote class="blockquote-reverse">
+                    <p>TINY TUBAS!</p>
+                    <footer>Aadit, probably</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <p class="centered">Lorem ipsum dolor sit amet. . .</p>
+        <br>
+    </div>
+
+
+    <div class="container">
+        <p>Witness: The magic button.</p>
+        <p id="target">This text will change colors randomly when you press it!</p>
+        <button class="btn-primary btn-block" id="magic-button" type="button" onclick="changeColor()">Magic!</button>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div style="background-color: red" class="col-xs-6">
+                <p>Left!</p>
+            </div>
+            <div style="background-color: blue" class="col-xs-6">
+                <p>Right!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
